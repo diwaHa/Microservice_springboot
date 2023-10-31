@@ -27,7 +27,7 @@ public class UserController {
 		return userService.saveUser(user);
 	}
 	
-	@GetMapping("/{id}")
+	@GetMapping("{id}")
 	public ResponseTemplateVO getUserWithDepartment(@PathVariable("id") Long userid) {
 		log.info("Inside getUserWithDepartment Method of UserControler");
 		return userService.getUserWithDepartment(userid);

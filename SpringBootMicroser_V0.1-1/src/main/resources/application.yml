@@ -16,7 +16,8 @@ spring:
     show-sql: true
     open-in-view: false # Add this line to disable the open-in-view pattern
   application:
-    name: USER-SERVIVE
+    name: USER-SERVICE
+    
 eureka:
   client:
     register-with-eureka: true
